@@ -1,0 +1,24 @@
+# Biến môi trường & Khóa bảo mật (Tuyệt đối không push lên GitHub)
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+
+# Thư viện & Bản build
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Thư mục cấu hình AI cục bộ (Giữ trên máy, không đẩy lên GitHub)
+.agents/
+.agent/
+.claude/
+claude-skills-upload/
+
+#File tạm & Upload
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep
+*.log
+.DS_Store
